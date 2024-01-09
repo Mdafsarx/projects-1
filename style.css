@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* general section */
+.common-h1{
+font-size: 40px;
+text-shadow: 7px -2px 7px rgb(255, 115, 0);
+
+}
+.common-p{
+    font-size: smaller;
+color: rgb(0, 0, 0);
+/* text-shadow: 9px 2px 3px rgb(169, 13, 13); */
+
+}
+
+
+.common-button{
+padding: 13px;
+border: none;
+
+}
+/* /////////////////////////// */
+
+/* header section */
+
+.background-img{
+background-image: url("./images/banner/banner2.png");
+height: 700px;
+background-position:center;
+background-repeat: no-repeat;
+
+
+
+}
+.background-img-title{
+text-align: end;
+line-height: 2em;
+padding: 230px;
+
+}
+
+::selection{
+    background-color: blueviolet;
+}
+
+/* MAIN SECTION */
+
+/* THE GIRL AND FAIL */
+
+.the-girl-and-title{
+
+    display: flex;
+    align-items: center;
+    max-width: 85%;
+    margin: 90px auto;
+    line-height: 1.6em;
+
+}
+.the-girl-and-title ul{
+    list-style: none;
+}
+
+.girl-img{
+padding-right: 200px;
+
+
+}
+li:first-child{color: brown;}
+li:last-child{color: blueviolet;}
+
+/* my plans section */
+
+#my-plans{
+    text-align: center;
+    margin-left: 100px;
+}
+.four-img{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.plans{
+padding-left: 100px;
+text-align: center;
+
+}
+
