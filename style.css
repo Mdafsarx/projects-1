@@ -22,6 +22,8 @@ color: rgb(0, 0, 0);
 .common-button{
 padding: 13px;
 border: none;
+border-radius: 10px;
+
 
 }
 /* /////////////////////////// */
@@ -95,18 +97,23 @@ text-align: center;
 
 .watch-background{
 background-image: url("./images/watch.png");
-max-width: 80%;
+max-width: 70%;
 margin: 30px auto;
 background-repeat: no-repeat;
-height: 300px;
+height: 250px;
 
 }
 
 .lenear-gradient-baackground{
 background-image: url("./images/gradient3.png");
-height: 300px;
+height: 250px;
 background-repeat: no-repeat;
+color: wheat;
+line-height: 1.6em;
 
+}
+.the-watch-title{
+padding: 79px 0px 0px 25px;
 
 }
 
